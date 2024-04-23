@@ -682,8 +682,12 @@ padding-left: 40px;
 
 .modal-open:hover,
 .modal-open:focus {
-    background-color: #404bbf;
     border: none; 
+    background-color: #404bbf;
+}
+
+.modal-open:hover > svg,
+.modal-open:focus > svg {
     fill: #ffffff;
 }
 
@@ -757,7 +761,7 @@ height: 24px;
 }
 
 .modal-filed {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .modal-text {
